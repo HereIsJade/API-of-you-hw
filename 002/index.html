@@ -1,0 +1,95 @@
+<html xmlns="html">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Hate Crime News Visualization</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <style>
+    #sliderContainer {
+      text-align: center;
+      position: relative;
+      margin: auto;
+    width: 50%;
+      /*top: 600px;*/
+    }
+
+    .slider
+{
+    width: 200px;
+}
+
+      .d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 22px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+  }
+
+  /* Style northward tooltips differently */
+  .d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+  }
+
+  .b{
+
+    background: rgba(0, 0, 0, 0.8);
+    color:rgb(255,255,255);
+  }
+
+  /*#word-info {
+    width=20%;
+    height=60%;
+    position=relative;
+    top=100;
+    left=10;
+    background: rgba(76, 175, 80, 0.3);
+    z-index: 1000;
+  }*/
+  </style>
+</head>
+
+<body class="b">
+  <!-- <nav id="nav" class="navbar navbar-default" role="navigation"></nav> -->
+  <div class="container" >
+    <h2>Hate Crime News Report</h2>
+    <h3>Word Cloud Data Visualization, 02/13/2017 - 08/12/2017 </h3>
+    <p style="font-size:20px">Click the word to see detailed news articles</p>
+    <div id="word-cloud" align="center">
+      <svg></svg>
+    </div>
+
+  </div>
+  <!-- <div id="word-info">
+    sadf
+  </div> -->
+  <div id="sliderContainer" >
+    <input class="slider" id="timeslide"  background="black"  width="100px" type="range" min="0" max="6" value="0" step="1" /><br>
+    <span id="range" style="font-size:30px">Feburary (news count: 150)</span>
+  </div>
+  <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/d3.v3.min.js"></script>
+  <script type="text/javascript" src="lib/d3.tip.v0.6.3.js"></script>
+  <script type="text/javascript" src="lib/d3.layout.cloud.js"></script>
+  <script type="text/javascript" src="drawWordCloud.js"></script>
+</body>
+
+</html>

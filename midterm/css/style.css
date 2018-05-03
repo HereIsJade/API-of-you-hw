@@ -1,0 +1,83 @@
+body {
+  color: #fff;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color : black;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+/*Band information stays in the middle of the screen (on top) when scrolling*/
+#band-info{
+  position: fixed;
+  width: 260px;
+  margin-left: -130px;
+  height: 300px;
+  margin-top: -150px;
+  left: 50%;
+  top: 50%;
+
+  border: 1px solid white;
+  font-size: 0.9em;
+  z-index:100;
+}
+
+#band-name{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 40px;
+  border-bottom: 1px solid white;
+}
+
+.detailed-info{
+  padding:10px 10px;
+}
+
+.favorite-song-video{
+  position: relative;
+  z-index=-999;
+}
+
+div .favorite-song-video iframe{
+  position: absolute;
+  height:auto;
+  /*width:370px;
+  height: 200px;*/
+}
+
+div .favorite-song-video p{
+  position: relative;
+  margin:0px;
+}
+
+/*
+@media (max-width: 767px) {
+  .stat {
+    margin: 0 16px;
+  }
+
+  .numeric-stat span {
+    font-size: 60px;
+    font-weight: 100;
+    opacity: 1;
+  }
+
+  .container {
+    padding: 16px 8px;
+  }
+
+  #day-holder .card {
+    flex-direction: column;
+  }
+
+  .left-holder {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .righth-holder {
+    width: 100%;
+    margin-left: 0px;
+  }
+}*/

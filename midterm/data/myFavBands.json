@@ -1,0 +1,127 @@
+[
+  {
+    "name": "My Bloody Valentine",
+    "origin": "Dublin, Ireland",
+    "genres": ["noise pop", "dream pop", "experimental rock", "post punk"],
+    "yearFormed": 1983,
+    "studioAlbums": ["Isn't Anything", "Loveless", "m b v"],
+    "myFavSongs": [
+      {
+        "songName": "Come In Alone",
+        "songUrl": "https://www.youtube.com/embed/u0DLCyWrxDo"
+      },
+      {
+        "songName": "Only Shallow",
+        "songUrl": "https://www.youtube.com/embed/FyYMzEplnfU"
+      },
+      {
+        "songName": "Sometimes",
+        "songUrl": "https://www.youtube.com/embed/1c8Selr9Aec"
+      },
+      {
+        "songName":"Is This And Yes",
+        "songUrl":"https://www.youtube.com/embed/8gH6UOatmAM"
+      }
+    ]
+  },
+  {
+    "name": "Mono",
+    "origin": "Tokyo, Japan",
+    "genres": ["post rock", "contemporary classical"],
+    "yearFormed": 1999,
+    "studioAlbums": ["Under the Pipal Tree","You Are There","For My Parents","The Last Dawn","Rays of Darkness","Requiem for Hell"],
+    "myFavSongs": [
+      {
+        "songName": "Ashes In The Snow",
+        "songUrl": "https://www.youtube.com/embed/-8Juilrg6oQ"
+      },
+      {
+        "songName": "Dream Odyssey",
+        "songUrl": "https://www.youtube.com/embed/TmEdJI8A76A"
+      },
+      {
+        "songName": "Nostalgia",
+        "songUrl": "https://www.youtube.com/embed/4nEqNacL6BU"
+      },
+      {
+        "songName":"Katana",
+        "songUrl":"https://www.youtube.com/embed/wtAc5BevC1M"
+      }
+    ]
+  },
+  {
+    "name": "Digitalism",
+    "origin": "Hamburg, Germany",
+    "genres": ["electronic rock", "electro house", "dance-punk"],
+    "yearFormed": 2004,
+    "studioAlbums": ["Idealism", "I Love You Dude", "Mirage"],
+    "myFavSongs": [
+      {
+        "songName": "Miami Showdown",
+        "songUrl": "https://www.youtube.com/embed/Ndp3uB8Bu-E"
+      },
+      {
+        "songName": "2 Hearts",
+        "songUrl": "https://www.youtube.com/embed/ppRQEXhNC-o"
+      },
+      {
+        "songName": "Circles",
+        "songUrl": "https://www.youtube.com/embed/N-c3X6uydns"
+      },
+      {
+        "songName":"Wolves",
+        "songUrl":"https://www.youtube.com/embed/YUJJXnSp5Xk"
+      }
+    ]
+  },
+  {
+    "name": "DIIV",
+    "origin": "New York, United States",
+    "genres": ["indie rock", "dream pop", "shoegaze"],
+    "yearFormed": 2011,
+    "studioAlbums": ["Oshin", "Is the Is Are"],
+    "myFavSongs": [
+      {
+        "songName": "Oshin (Subsume)",
+        "songUrl": "https://www.youtube.com/embed/bsjHl7vFykQ"
+      },
+      {
+        "songName": "Take Your Time",
+        "songUrl": "https://www.youtube.com/embed/ZRW-wAYi5TQ"
+      },
+      {
+        "songName": "Follow",
+        "songUrl": "https://www.youtube.com/embed/ZRW-wAYi5TQ"
+      },
+      {
+        "songName":"Doused",
+        "songUrl":"https://www.youtube.com/embed/KI79GPXAICM"
+      }
+    ]
+  },
+  {
+    "name": "Moderat",
+    "origin": "Berlin, Germany",
+    "genres": ["electronica", "house", "IDM", "Minimal Techno"],
+    "yearFormed": 2002,
+    "studioAlbums": ["Moderat", "II", "III"],
+    "myFavSongs": [
+      {
+        "songName": "Bad Kingdom",
+        "songUrl": "https://www.youtube.com/embed/u6ECMXk3JAw"
+      },
+      {
+        "songName": "Running",
+        "songUrl": "https://www.youtube.com/embed/tVawpT44Hrk"
+      },
+      {
+        "songName": "A New Error",
+        "songUrl": "https://www.youtube.com/embed/JWnX41TBFF4"
+      },
+      {
+        "songName":"Eating Hooks",
+        "songUrl":"https://www.youtube.com/embed/u6ECMXk3JAw"
+      }
+    ]
+  }
+]

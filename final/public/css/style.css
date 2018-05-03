@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, p {
+  text-align: center;
+  padding: 10px;
+}
+
+h1{
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+p{
+  font-size:24px;
+}
+
+.txt, select, form > div {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.txt {
+  width: 80%;
+}
+
+select {
+  width: 83%;
+
+}
+
+.gif{
+  padding-top: 30px;
+}
+
+form > div {
+  width: 81%;
+}
+
+.txt, form > div {
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 10%;
+  line-height: 1.8;
+  font-size:24px;
+}
+
+input[type="range"] {
+    /* padding-left: 2px; */
+    margin: 15px;
+}
+
+.rate-value, .pitch-value {
+  float: right;
+  width: 8%;
+  line-height: 2;
+}
+
+#rate, #pitch {
+  float: right;
+  width: 70%;
+  margin-left: 20px;
+}
